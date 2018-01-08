@@ -1,0 +1,34 @@
+2018-Jan-08 18:59:39.207173 INFO [simplewallet] ejemplo wallet v1.1.1.1()
+2018-Jan-08 19:00:04.577167 ERROR [simplewallet] Failed to initialize wallet
+2018-Jan-08 19:00:21.540574 INFO [simplewallet] ejemplo wallet v1.1.1.1()
+2018-Jan-08 19:00:43.299896 ERROR [simplewallet] Error: wallet failed to connect to daemon (http://localhost:18236).
+2018-Jan-08 19:00:43.317582 INFO [simplewallet] Generated new wallet: eyEr1ZpH9cKQoziQVruZ3t6UQPsdDUnHVBv8zr9Wj2HJ5tTF1Qk3XBj1sQKTBB9GFWiEpiEZFVcCAT4kUrPhDgwh2FdL44zmT
+2018-Jan-08 19:00:43.317582 INFO [simplewallet] view key: e75671083fc21392fd9c02a7ee188203c64638f54d64bd566508b532a6257005
+2018-Jan-08 19:00:43.319331 INFO [simplewallet] **********************************************************************
+Your wallet has been generated.
+Use "help" command to see the list of available commands.
+Always use "exit" command when closing simplewallet to save
+current session's state. Otherwise, you will possibly need to synchronize 
+your wallet again. Your wallet key is NOT under risk anyway.
+**********************************************************************
+2018-Jan-08 19:01:12.033608 INFO [simplewallet] Commands: 
+  address              Show current wallet public address
+  balance              Show current wallet balance
+  bc_height            Show blockchain height
+  exit                 Close wallet
+  help                 Show this help
+  incoming_transfers   Show incoming transfers
+  list_transfers       Show all known transfers
+  payments             payments <payment_id_1> [<payment_id_2> ... <payment_id_N>] - Show payments <payment_id_1>, ... <payment_id_N>
+  reset                Discard cache data and start synchronizing from the start
+  save                 Save wallet synchronized data
+  set_log              set_log <level> - Change current log level, <level> is a number 0-4
+  start_mining         start_mining [<number_of_threads>] - Start mining in daemon
+  stop_mining          Stop mining in daemon
+  transfer             transfer <mixin_count> <addr_1> <amount_1> [<addr_2> <amount_2> ... <addr_N> <amount_N>] [-p payment_id] [-f fee] - Transfer <amount_1>,... <amount_N> to <address_1>,... <address_N>, respectively. <mixin_count> is the number of transactions yours is indistinguishable from (from 0 to maximum available)
+  
+
+2018-Jan-08 19:01:17.127511 INFO [simplewallet] available balance: 0.00000000, locked amount: 0.00000000
+2018-Jan-08 19:01:23.584180 INFO [simplewallet] Wallet closed
+2018-Jan-08 19:01:48.218431 INFO [simplewallet] ejemplo wallet v1.1.1.1()
+2018-Jan-08 19:01:58.880444 ERROR [simplewallet] Failed to initialize wallet
